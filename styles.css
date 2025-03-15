@@ -1,4 +1,14 @@
-#container {
+body {
+    @media (min-width:200px) {
+        background-color: purple;
+        font-size: 20px;
+
+    @media(max-width: 1000px) {
+        background-color:green;
+        font-size: 30px;
+
+        
+    }
     #container{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -6,7 +16,7 @@
         padding: 20px;
     }
     .divs{
-        background-color: #f4f4f4;
+        background-color: #c71212;
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
